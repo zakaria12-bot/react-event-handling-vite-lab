@@ -53,7 +53,27 @@ You are working with a client to create a new password input within their websit
 
 ## Task 5: Document and Maintain
 
+## Run the project
+
+Install dependencies and start the Vite development server:
+
+```sh
+npm install
+npm run dev
+```
+
+Open the local URL printed by Vite (usually `http://localhost:5173`).
+
+## Run the tests
+
+```sh
+npm test -- --run
+```
+
+The app's component tree is `App` → `PasswordInput` and `SubmitButton`.
+`PasswordInput` logs when its value changes, while `SubmitButton` logs when
+the pointer enters and leaves the button.
+
 ## Tools and Resources
 - **GitHub Repository:** [React Event Handling Vite Lab](https://github.com/learn-co-curriculum/react-event-handling-vite-lab)
 - **Event Handling in React:** [React Documentation](https://react.dev/learn/responding-to-events#adding-event-handlers)
-
